@@ -1,0 +1,34 @@
+#fruta{
+    width: 150px;
+    border-radius: 20%;
+    height: 200px;
+}
+body{
+    margin: 3;
+    padding: 0;
+    background-color: slategray;
+}
+h2{
+    color: midnightblue;
+}
+a{
+    color: navy;
+}
+h1{
+    background-color:steelblue;
+}
+#foofo{
+    background-color: rgb(4, 81, 133);
+}
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a {
+padding: 5px;
+text-decoration: none;
+}

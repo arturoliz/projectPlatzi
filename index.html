@@ -5,22 +5,31 @@
     <meta name="description" content="Inicios de mi carrera profesional">
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Página Principal</title>
+    <title>supermarket list</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
     <header>
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__item"><a href="">Home</a></li>
+                <li class="main-nav__item"><a href="">Cursos</a></li>
+                <li class="main-nav__item"><a href="">Instructores</a></li>
+                <li class="main-nav__item"><a href="">Blog</a></li>
+            </ul>
+        </nav>
         <h1>I´m your supermarket list!</h1>
     </header>
     <main>
+        <section id="foofo">
         <ul>
-            <li>Frutas</li>
-            <ol>
-                <figure>
-                   <img src="./pictures/jo-sonn-zeFy-oCUhV8-unsplash.jpg" width="150" alt="Fruits">
-                   <figcaption>Fruits</figcaption>
+            <li><h2>Fruits</h2></li>
+             <figure>
+                   <img id="fruta" src="./pictures/jo-sonn-zeFy-oCUhV8-unsplash.jpg" width="150" alt="Fruits">
                 </figure>
+            <ol>
                 <a target="_blanck" href="https://www.google.com/search?q=apples+recipes&rlz=1C1ALOY_esMX944MX944&oq=apples+recipes&aqs=chrome..69i57.3325j0j7&sourceid=chrome&ie=UTF-8"><li>Apples</li></a>
                 <a target="_blanck" href="https://www.google.com/search?q=+pears+recipe&rlz=1C1ALOY_esMX944MX944&sxsrf=ALeKk02up4zJabdjFuvpbDvdQzSNIFQsQA%3A1626483286315&ei=ViryYNjSEsqQtQW8xIPoCA&oq=+pears+recipe&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyCAgAEBYQHhATMggIABAWEB4QEzIICAAQFhAeEBM6BAgAEEM6BQgAELEDOgIIADoOCC4QsQMQgwEQxwEQrwE6BQguELEDOgcIABCHAhAUOgQIABAKOgYIABAWEB46CAgAEA0QHhATOgoIABANEAUQHhATSgQIQRgAULs1WLpWYPteaAFwAngAgAG8AYgB5wySAQQwLjExmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwjY1Y208ujxAhVKSK0KHTziAI0Q4dUDCA4&uact=5"><li>Pears</li></a>
                 <a target="_blanck" href="https://www.google.com/search?q=+pineapple+recipes&rlz=1C1ALOY_esMX944MX944&sxsrf=ALeKk02EC3WRttDVh93wPMjiND9dUjUjKg%3A1626483212390&ei=DCryYLalF42AtQWE2oL4Aw&oq=+pineapple+recipes&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcILhBDEJMCOgcIABCxAxBDOgQILhBDOgUILhCxAzoECAAQQzoCCC46BAgAEAM6BwgAEIcCEBQ6CAguEMcBEK8BOgcILhCHAhAUSgQIQRgAUN0mWKI_YNs_aAFwAngAgAGiAogBog6SAQUwLjkuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwi22-2Q8ujxAhUNQK0KHQStAD8Q4dUDCA4&uact=5"><li>Pineapple</li></a>
@@ -29,7 +38,7 @@
             </ol>
         </ul>
         <ul>
-            <li>Meats</li>
+            <li><h2>Meats</h2></li>
             <ol>
                 <a target="_blanck" href="https://www.google.com/search?q=chiken+recipes&rlz=1C1ALOY_esMX944MX944&oq=chiken+recipes&aqs=chrome..69i57.3600j0j15&sourceid=chrome&ie=UTF-8"><li>Chiken</li></a>
                 <a target="_blanck" href="https://www.google.com/search?q=caw+recipes&rlz=1C1ALOY_esMX944MX944&sxsrf=ALeKk02tGfi9YSs9qvJwCjTnyLpEaZoTVg%3A1626483482152&ei=GivyYLXaCIXWtQXt0r2YDg&oq=caw+recipes&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAcQHjIICAAQBxAKEB4yCAgAEAcQChAeMgYIABAHEB4yCAgAEAcQChAeMgYIABAHEB4yBggAEAcQHjIICAAQBxAKEB4yCAgAEAcQChAeMggIABAHEAoQHjoICAAQBxAeEBM6CggAEAcQChAeEBM6BwgAELEDEEM6BwgAEIcCEBQ6AggAOgQIABBDSgQIQRgAUOFoWMR4YOd6aABwAXgAgAG0AogB-QeSAQcwLjUuMC4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwi1z76R8-jxAhUFa60KHW1pD-MQ4dUDCA4&uact=5"><li>Caw</li></a>
@@ -37,13 +46,14 @@
             </ol>
         </ul>
         <ul>
-            <li>Vegetables</li>
+            <li><h2>Vegetables</h2></li>
             <ol>
                 <a target="_blanck" href="https://www.google.com/search?q=onion+recipes&rlz=1C1ALOY_esMX944MX944&sxsrf=ALeKk01g8JqPU3L5ALy1-IEZSarjEJOw5A%3A1626483513892&ei=OSvyYMzqNY6GsAWD-buoCg&oq=onion+recipes&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEBMyCAgAEAcQHhATMggIABAHEB4QEzIICAAQBxAeEBMyCAgAEAcQHhATMggIABAHEB4QEzIICAAQBxAeEBMyCAgAEAcQHhATMggIABAHEB4QEzIICAAQBxAeEBM6BwgAEEcQsAM6BwgAELADEEM6BggAEAcQHkoECEEYAFDZigdYm5EHYP-TB2gBcAJ4AIAB0QGIAZkHkgEFMC41LjGYAQCgAQGqAQdnd3Mtd2l6yAEKwAEB&sclient=gws-wiz&ved=0ahUKEwiM68-g8-jxAhUOA6wKHYP8DqUQ4dUDCA4&uact=5"><li>Onion</li></a>
                 <a target="_blanck" href="https://www.google.com/search?q=carrots+recipes&rlz=1C1ALOY_esMX944MX944&sxsrf=ALeKk025wMNbYku8r17QfnzRlgyuH_-umw%3A1626483632308&ei=sCvyYOSKEpLmsAWEipvYDA&oq=carrots+recipes&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjoICAAQBxAeEBNKBAhBGABQpHBYuHtg2n5oAHACeACAAe0BiAG_CZIBBTAuNy4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwjkoovZ8-jxAhUSM6wKHQTFBssQ4dUDCA4&uact=5"><li>Carrots</li></a>
                 <a target="_blanck" href="https://www.google.com/search?q=cucumber+recipes&rlz=1C1ALOY_esMX944MX944&sxsrf=ALeKk03jQC2kQ0VNrjFAiT3nNe6h1wP-yg%3A1626483649778&ei=wSvyYNONL4mGsQWe87n4DQ&oq=cucumber+recipes&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeOggIABAHEB4QEzoECAAQDUoECEEYAFD2XliAaWDCdmgAcAJ4AIABxwGIAaEKkgEDMC45mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwiT8rXh8-jxAhUJQ6wKHZ55Dt8Q4dUDCA4&uact=5"><li>Cucumber</li></a>
             </ol>
         </ul>
+        </section>
     </main>
     <footer>
 
