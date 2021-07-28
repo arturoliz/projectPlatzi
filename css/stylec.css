@@ -1,0 +1,51 @@
+.nav {
+    background-color: green;
+}
+.nav-bar {
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+}
+.nav-bar li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+}
+figure{
+ position: absolute;   
+ background-color: grey;
+ margin: 10px;
+}
+.ads {
+    width: 30%;
+    height: 400px;
+    background-color: blue;
+    display: inline-block;
+    min-width: 200px;
+}
+.content {
+    width:70% ;
+    height: 400px;
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+}
+.content p{
+    margin: 0;
+    padding: 10px;
+}
+.footer {
+    background-color: yellow;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+.ads-elements {
+    width: 80%;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 12px;
+    border: 2px black;
+    margin:8%;
+}
