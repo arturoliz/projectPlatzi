@@ -1,0 +1,145 @@
+html {
+    font-size: 62.5%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+   list-style: none;
+   padding-top: 7px;
+   margin-left: 10px;
+}
+.nav-list{
+    padding: 2px;
+}
+.nav-list li{
+    display: inline;
+    padding-left: 5px;
+}
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.c4 {
+    height: auto;
+}
+.c1 {
+    background-color: #003476;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.c1 p{
+    padding-top: 15px;
+    font-size: 15px;
+    margin:0;
+}
+
+.c2 {
+    background-color: #0062d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c2 h2{
+    margin:0;
+    padding: 3%;
+}
+.c2__producere {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.c2__produceres-tools{
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #0C1775;
+}
+.c3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #739ed3;
+}
+.c3 h2{
+    margin:0;
+    padding: 3%;
+}
+.c3__cities{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cc3__cities-tools{
+    padding: 5px;
+    margin: 3px;
+    background-color: #0C1775;
+    opacity: 0.7;
+    border-radius: 3px;
+}
+#img {
+    width: 250px;
+    border-radius: 2px;
+}
+#imglogo{
+    width: 100px;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+.c5 figure{
+    margin: 0;
+}
+.c5 {
+    background-color: #2B5293;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.c5__lenguajes{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+.c5__social{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+@media (min-width: 600px) {
+     .c2{
+         height: 120px;
+     }
+    .c5 {
+        width: 100%;
+    
+    }
+}
+@media (min-width: 800px){
+    .container{
+        width: 800px;
+        margin: 0 auto;
+        
+    }
+    .c4{
+        display: flex;
+    }
+    .c2, .c3{
+        width: 50%;
+        height: 200px;
+    }
+    .c3__cities{
+        max-width: 260px;
+    }
+}
